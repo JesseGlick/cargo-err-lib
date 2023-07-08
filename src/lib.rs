@@ -2,6 +2,10 @@ pub fn add(left: usize, right: usize) -> usize {
     left + right
 }
 
+pub fn subtract(left: i64, right: i64) -> i64 {
+    left - right
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
